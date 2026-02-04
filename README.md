@@ -97,7 +97,7 @@ Client side:
 
 <img width="448" height="121" alt="image" src="https://github.com/user-attachments/assets/43b18050-f2bb-432d-b6a2-ab740cfad7ce" />
 
-<img width="448" height="121" alt="image" src="https://github.com/user-attachments/assets/e8641b85-b1f8-4efe-92ca-0e129682cb8b" />
+<img width="410" height="162" alt="image" src="https://github.com/user-attachments/assets/be914859-33eb-4135-a285-3b66edf305b6" />
 
 
 ## Result:
