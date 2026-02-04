@@ -1,5 +1,5 @@
 # Ex. No:1b 			Study of Client Server Chat Applications
-
+#Register no:212225100051
 ## Aim: 
 To perform a study on Client Server Chat Applications
 ## Introduction:
@@ -72,6 +72,32 @@ User authentication mechanisms are essential to ensure secure and authorized acc
 Client-server chat applications are versatile tools that facilitate real-time communication between users over a network. They incorporate various components, including server-side and client-side elements, and must consider factors such as security, scalability, and concurrency. As technology continues to advance, client-server chat applications remain integral for collaborative communication in various domains.
 
 Client-server chat applications are foundational to real-time communication over networks. They incorporate principles of socket programming, communication protocols, and security mechanisms to provide a seamless user experience. Understanding the basics of client-server chat applications is essential for developers involved in networked application development, as they form the backbone of various collaborative communication systems. As technology evolves, chat applications continue to adapt, incorporating new features and technologies to enhance user interaction and connectivity.
+
+##ALGORITHM:
+
+Server Side (serverside.py)
+
+Step 1: Start Step 2: Import the socket module Step 3: Create a socket using IPv4 (AF_INET) and TCP (SOCK_STREAM) Step 4: Bind the socket to IP address 127.0.0.1 and port number 12345 Step 5: Put the socket into listening mode Step 6: Display message “Server is listening” Step 7: Accept an incoming client connection Step 8: Display message “Client connected” Step 9: Repeat the following steps until client sends "exit" a) Receive message from client b) Display the received message c) Read reply from server user d) Send reply to the client Step 10: Close the client socket Step 11: Close the server socket Step 12: Stop
+
+Client Side (clientside.py)
+
+Step 1: Start Step 2: Import the socket module Step 3: Create a socket using IPv4 (AF_INET) and TCP (SOCK_STREAM) Step 4: Connect the socket to server IP 127.0.0.1 and port 12345 Step 5: Display message “Connected to server” Step 6: Repeat the following steps until user enters "exit" a) Read message from client user b) Send message to the server c) Receive reply from server d) Display server reply Step 7: Close the client socket Step 8: Stop
+
+##PROGRAM:
+
+Server side:
+
+<img width="532" height="267" alt="image" src="https://github.com/user-attachments/assets/ac4a1469-0738-4982-a964-92b463215c53" />
+
+Client side:
+
+<img width="402" height="391" alt="image" src="https://github.com/user-attachments/assets/ceef4352-01f7-49dd-83c6-a8734991917b" />
+
+##OUTPUT:
+
+<img width="448" height="121" alt="image" src="https://github.com/user-attachments/assets/43b18050-f2bb-432d-b6a2-ab740cfad7ce" />
+
+<img width="448" height="121" alt="image" src="https://github.com/user-attachments/assets/e8641b85-b1f8-4efe-92ca-0e129682cb8b" />
 
 
 ## Result:
