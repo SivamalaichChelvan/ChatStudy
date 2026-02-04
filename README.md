@@ -73,7 +73,7 @@ Client-server chat applications are versatile tools that facilitate real-time co
 
 Client-server chat applications are foundational to real-time communication over networks. They incorporate principles of socket programming, communication protocols, and security mechanisms to provide a seamless user experience. Understanding the basics of client-server chat applications is essential for developers involved in networked application development, as they form the backbone of various collaborative communication systems. As technology evolves, chat applications continue to adapt, incorporating new features and technologies to enhance user interaction and connectivity.
 
-##ALGORITHM:
+## ALGORITHM:
 
 Server Side (serverside.py)
 
@@ -83,7 +83,7 @@ Client Side (clientside.py)
 
 Step 1: Start Step 2: Import the socket module Step 3: Create a socket using IPv4 (AF_INET) and TCP (SOCK_STREAM) Step 4: Connect the socket to server IP 127.0.0.1 and port 12345 Step 5: Display message “Connected to server” Step 6: Repeat the following steps until user enters "exit" a) Read message from client user b) Send message to the server c) Receive reply from server d) Display server reply Step 7: Close the client socket Step 8: Stop
 
-##PROGRAM:
+## PROGRAM:
 
 Server side:
 
@@ -93,7 +93,7 @@ Client side:
 
 <img width="402" height="391" alt="image" src="https://github.com/user-attachments/assets/ceef4352-01f7-49dd-83c6-a8734991917b" />
 
-##OUTPUT:
+## OUTPUT:
 
 <img width="448" height="121" alt="image" src="https://github.com/user-attachments/assets/43b18050-f2bb-432d-b6a2-ab740cfad7ce" />
 
