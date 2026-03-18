@@ -85,11 +85,11 @@ Step 1: Start Step 2: Import the socket module Step 3: Create a socket using IPv
 
 ## PROGRAM:
 
-Server side:
+Client side:
 
 <img width="532" height="267" alt="image" src="https://github.com/user-attachments/assets/ac4a1469-0738-4982-a964-92b463215c53" />
 
-Client side:
+Server side:
 
 <img width="402" height="391" alt="image" src="https://github.com/user-attachments/assets/ceef4352-01f7-49dd-83c6-a8734991917b" />
 
